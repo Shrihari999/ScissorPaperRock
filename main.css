@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #8CC461;
+}
+.topcontainer{
+position: absolute;
+width: 800px;
+height: 158px;
+top: 62px;
+left: 240px;
+border-radius: 13px;
+border: 2px;
+border: 2px solid #FFFFFF;
+display: flex;
+justify-content: space-around;
+
+}
+.text{
+font-family: Roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0.1em;
+text-align: left;
+color:white;
+margin-top: 5px;
+}
+.computerScore{
+margin-top: 18px;
+margin-left: 180px;
+width: 139px;
+height: 128px;
+top: 77px;
+left: 713px;
+border-radius: 9px;
+background-color: white;
+}
+.yourScore{
+margin-top: 18px;
+width: 139px;
+height: 128px;
+top: 77px;
+left: 713px;
+border-radius: 9px;
+background-color: white;
+}
+.computerScore p{
+    width: 103px;
+height: 20px;
+top: 84px;
+left: 730px;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-align: center;
+color:#656565;
+background-color: #FFFFFF;
+margin-left: 12px;
+margin-top: 5px;
+
+}
+.yourScore p{
+    width: 103px;
+height: 20px;
+top: 84px;
+left: 730px;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-align: center;
+color:#656565;
+background-color: #FFFFFF;
+margin-left: 14px;
+margin-top: 5px;
+}
+#comp_score,#your_score{
+
+width: 79px;
+height: 63px;
+top: 128px;
+left: 910px;
+font-family: Roboto;
+font-size: 68px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+color: #252525;
+margin-top: 30px;
+margin-left:30px;
+background-color: #FFFFFF;
+}
+.picked{
+    margin-top:320px;
+    margin-left: 330px;
+    display: flex;
+    gap: 400px;
+    font-family: Roboto;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-align: left;
+color:white;
+
+
+
+}
+.userpic{
+    opacity: 0;
+
+}
+.machinepic{
+   opacity:0;
+
+}
+
+.bottomcontainer{
+    display: grid;
+    place-content: center;
+    margin-right:100px;
+    margin-top: 50px;
+
+}
+.triangle{
+    margin-left: 130px;;
+}
+.gameinfo{
+    display: flex;
+}
+.fist{
+    position:relative;
+    top:px;
+    left:px;
+    bottom:320px;
+    left:60px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 110px;
+    width:110px;
+
+}
+.blue{
+    position: relative;
+    border-radius: 50%;
+
+    
+}
+.fist_icon{
+    position: absolute;
+    top:45px;
+    right:-12px;
+    background-color: #FFFFFF;
+    
+}
+.scissor{
+    position:relative;
+    top:px;
+    left:px;
+    bottom:320px;
+    left:160px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 110px;
+    width:110px;
+    margin-left: 50px;;
+
+
+}
+.purple{
+    position: relative;
+    border-radius: 50%;
+}
+.scissor_icon{
+    position: absolute;
+    top:45px;
+    right:5px;
+    background-color: #FFFFFF;
+
+
+}
+.hand{
+    position:relative;
+    top:px;
+    left:px;
+    bottom:80px;
+    right:125px;
+    border-radius: 50%;
+    cursor: pointer;
+    height:110px;
+    width:110px;
+    margin-left: 50px;;
+
+
+}
+.orange{
+    position: relative;
+    border-radius: 50%;
+    
+}
+.hand_icon{
+    position: absolute;
+    bottom: -1px;
+    right:-9px;
+    background-color: #FFFFFF;
+
+}
+.rulebutton{
+    position:absolute;
+    width: 119px;
+height: 40px;
+top: 675px;
+left: 1136px;
+border-radius: 10px;
+border: 2px;
+font-family: Roboto;
+font-size: 21px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #FFFFFF;
+border:1px solid white;
+cursor: pointer;
+}
+.nextbutton{
+    border: 2px solid #FFFFFF;
+    position:absolute;
+    width: 119px;
+height: 40px;
+top:675px;
+Left:990px;
+border-radius: 10px;
+border: 2px;
+font-family: Roboto;
+font-size: 21px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #FFFFFF;
+border: 2px solid white;
+cursor: pointer;
+display: none;
+
+}
+.winner_status{
+    position: absolute;
+    left:550px;
+    top:500px;
+    margin-left: -20px;
+
+    display: none;
+    
+
+}
+.winlo{
+    font-family: Roboto;
+font-size: 39px;
+font-weight: 800;
+line-height: 46px;
+letter-spacing: 0.1em;
+text-align: center;
+color:white;
+
+
+
+}
+.against{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 800;
+line-height: 29px;
+letter-spacing: 0.1em;
+
+text-align: center;
+color:white;
+
+}
+.play_again{
+    width: 174px;
+height: 44px;
+top: 547px;
+left: 570px;
+border-radius: 9px;
+margin-left: 10px;
+background-color: white;
+cursor: pointer;
+
+}
+.computer{
+    display: none;
+}
+.show{
+    position:absolute;
+    left:18rem;
+    top:24rem;
+
+}
+.right{
+    position:relative;
+    bottom: 2px;
+    left:210px;
+
+    
+}
+.rulesbox{
+    position: absolute;
+    width: 278px;
+height: 325px;
+top: 330px;
+left: 964px;
+border-radius: 13px;
+border: 7px;
+border: 7px solid #FFFFFF;
+background-color: #004429;
+display: none;
+
+}
+
+.rulesbox ul li{
+    margin-left: 20px;
+    background-color: #004429;
+    
+
+}
+.ruleslist{
+    background-color: #004429;
+    list-style-type: square;
+    list-style-type: yellow;
+
+}
+.ruleslist h2{
+    width: 156px;
+height: 27px;
+top: 25px;
+left: 61px;
+font-family: Roboto;
+font-size: 29px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+margin-left:50px;
+
+
+}
+.close{
+    margin-left: 260px;
+    margin-top:-40px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-color: red;
+    border:2px solid white;
+    height:40px;
+    width:40px;
+    cursor:pointer;
+
+
+}
+.xsign{
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+}
+.game{
+    margin-left: 15px;
+    margin-top:-50px;
+    margin-bottom: 40px;
+    color:white;
+    font-family: Roboto;
+font-size: 29px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #004429;
+
+}
+.victorycontainer{
+    position: relative;
+    width: 504px;
+height: 297px;
+top: 86px;
+left: 388px;
+z-index: 5;
+display: none;
+
+}
+.star1{
+    position: absolute;
+    width: 115px;
+height: 115px;
+top: 198px;
+left: 388px;
+
+    
+}
+.star2{
+    position: absolute;
+    position: absolute;
+    width: 103px;
+height: 103px;
+top: 86px;
+left: 710px;
+}
+.star3{
+    position: absolute;
+    width: 32px;
+height: 32px;
+top: 86px;
+left: 503px;
+
+}
+.trophy{
+position: absolute;
+width: 200.43px;
+height: 201px;
+top: 189px;
+left: 557px;
+}
+.star4{
+    position: absolute;
+    width: 32px;
+height: 32px;
+top: 122px;
+left: 610px;
+
+
+}
+.star5{
+    position: absolute;
+    width: 32px;
+height: 32px;
+top: 351px;
+left: 496px;
+
+
+}
+.star6{
+    position: absolute;
+    width: 130px;
+height: 130px;
+top: 246px;
+left: 762px;
+
+
+}
+.star7{
+    position: absolute;
+    width: 32px;
+height: 32px;
+top: 173px;
+left: 830px;
+
+
+
+}
+.star9{
+    position: absolute;
+    width: 68px;
+height: 68px;
+top: 137px;
+left: 460px;
+
+}
+.hurray{
+    position: relative;
+    width: 464px;
+height: 86px;
+top: 422px;
+left: 436px;
+
+}
+.hurrtext{
+    font-family: Roboto;
+font-size: 91px;
+font-weight: 600;
+line-height: 107px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.congratulations{
+    position: absolute;
+    width: 457px;
+height: 48px;
+top: 533px;
+left: 442px;
+
+
+}
+.won{
+    font-family: Roboto;
+font-size: 41px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #FFFFFF;
+
+
+    
+
+}

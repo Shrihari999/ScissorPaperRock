@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scissor Paper Rock</title>
+<link rel="stylesheet" href="main.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+<div class="topcontainer">
+    <div class="text">
+        <p>ROCK</p>
+        <p>PAPER</p>
+        <p>SCISSORS</p>
+    </div>
+    <div class="computerScore">
+        <p>COMPUTER SCORE</p>
+        <h1 id="comp_score">0</h1>
+    </div>
+    <div class="yourScore">
+        <p>YOUR SCORE</p>
+        <h1 id="your_score">0</h1>
+    </div>
+</div>
+<div class="picked">
+    <p class="userpic">YOU PICKED</p>
+    <p class="machinepic">PC PICKED</p>
+</div>
+<div class="bottomcontainer">
+    <img class="triangle" src="bg-triangle.svg">
+    <div class="gameinfo">
+    <div class="fist user">
+        <img  class="blue" src="bluecircle.png">
+        <img  class="fist_icon" src="fist.png">
+    </div>
+    <div class="scissor user">
+        <img  class="purple" src="purplecircle.png">
+        <img  class="scissor_icon" src="scissor.png">
+    </div>
+    <div class="hand user">
+        <img  class="orange" src="orangecircle.png">
+        <img  class="hand_icon" src="hand.png">
+    </div>
+    <div class="fist computer">
+        <img  class="blue" src="bluecircle.png">
+        <img  class="fist_icon" src="fist.png">
+    </div>
+    <div class="scissor computer">
+        <img  class="purple" src="purplecircle.png">
+        <img  class="scissor_icon" src="scissor.png">
+    </div>
+    <div class="hand computer">
+        <img  class="orange" src="orangecircle.png">
+        <img  class="hand_icon" src="hand.png">
+    </div>
+</div>
+</div>
+
+<div class="winner_status">
+    <h1 class="winlo">YOU WIN</h1>
+    <h1 class="against"> AGAINST PC</h1>
+    <button type="button" class="play_again">PLAY AGAIN</button>
+</div>
+<button type="button" class="rulebutton">RULE</button>
+<button type="button" class="nextbutton">NEXT</button>
+<div class="rulesbox">
+    <div class="close"><h1 class="xsign">X</h1></div>
+    <div class="ruleslist">
+      <h3 class="game">Gaming Rules</h3>
+      <ul>
+        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+        <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+        <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+        <li>If both players lay down the same hand, each player lays down another hand.</li>
+      </ul>
+    </div>
+  </div>
+    <script src="script.js"></script>
+    <div class="victorycontainer">
+        <div class="starcon">
+            <img src="images/Star 1.png" class="star1">
+            <img src="images/Star 2.png" class="star2">
+            <img src="images/Star 3.png" class="star3">
+            <img src="images/Star 4.png" class="star4">
+            <img src="images/Star 5.png" class="star5">
+            <img src="images/Star 6.png" class="star6">
+            <img src="images/Star 7.png" class="star7">
+            <img src="images/Star 9.png" class="star9">
+            <img src="images/trophy.png" class="trophy">
+
+        </div>
+        <div class="hurray">
+            <h1 class="hurrtext">HURRAY!!</h1>
+        </div>
+            <div class="congratulations">
+               <h2 class="won"> YOU WON THE GAME</h2>
+            </div>
+        
+        <button type="button" class="play_again">PLAY AGAIN</button>
+    </div>
+
+
+</body>
+</html>
